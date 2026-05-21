@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+            margin: 0;
+            padding: 0;
+            background-color: #240046;
+            font-family: "Elms Sans";
+            
+        }
+        
+        li, a {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: inline-block;
+            padding: 0px 20px;
+        }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #10002b;
+}
+        .button-logar {
+            color: white;
+background-color: #5a189a;
+font-size: 20px;
+padding: 10px 30px;
+border-radius: 10px;
+cursor: pointer;
+        }
+
+        p, h2{
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .logotipo{
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            
+        }
+
+        .navlinks{
+            list-style: none;
+            
+        }
+
+        footer{
+            text-align: center;
+            padding-top: 10px;
+            background-color: #3c096c;
+            min-height: 8vh;
+            
+        }
+
+        main {
+            min-height: 80vh;
+        }
+
+        .button-switch{
+            color: white;
+            background-color: rgb(200, 10, 10);
+            border-radius: 10px;
+            padding: 50px 40px;
+            margin-top: 50px;
+            margin-left: 835px;
+            cursor: pointer;
+        }

@@ -3,41 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template HTML Básico</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        header {
-            background-color: #f0f0f0;
-            padding: 10px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #f0f0f0;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Genless</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Meu Site</h1>
+        <span class="logotipo">Genless</span>
+        <nav>
+            <ul class="navlinks">
+                <li><a href="#">Grupos</a></li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button class="button-logar">Login</button></a>
     </header>
     <main>
-        <h2>Conteúdo Principal</h2>
-        <p>Este é um template HTML básico. Você pode personalizar conforme necessário.</p>
+        <h2>Serviços de assinatura</h2>
+        <button class="button-switch"><p>Nintendo Switch</p></button>
     </main>
     <footer>
-        <p>&copy; Nopexs Productions </p>
+        <p>&copy; Genless. Todos os direitos reservados.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
-```
